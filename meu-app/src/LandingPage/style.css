@@ -1,0 +1,126 @@
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 18vh;
+}
+
+.logo {
+    height: 150px;
+}
+
+.botaoClaro img {
+    height: 20px;
+}
+
+.botaoClaro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    height: 30%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    font-weight: bold;
+    margin-right: 10%;
+    border: 2px solid #B2987D;
+    cursor: pointer;
+}
+
+.botaoEscuro img {
+    height: 20px;
+}
+
+.botaoEscuro {
+    color: #fff;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+    height: 30%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    font-weight: bold;
+    margin-right: 10%;
+    border: 2px solid #B2987D;
+    cursor: pointer;
+}
+
+.secaoBanner {
+    background-image: url('/public/assets/banner-barbearia.jpg');
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.conteudoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.conteudoPage div {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.div1 p {
+    margin-top: 30px;
+}
+
+.div2 p {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 30px;
+    color: #B2987D;
+    font-size: 90px;
+}
+
+@media (max-width: 768px) {
+    .botaoClaro {
+        width: 12%;
+    }
+
+    .botaoEscuro {
+        width: 12%;
+    }
+}
+
+
+@media (max-width: 436px) {
+
+    .botaoClaro {
+        width: 20%;
+    }
+
+    .botaoEscuro {
+        width: 20%;
+    }
+
+    .div2 p {
+        font-family: 'Great Vibes', cursive;
+        margin-top: 30px;
+        color: #B2987D;
+        font-size: 60px;
+    }
+}
+
+
+.modo-claro {
+    background-color: #fff;
+}
+
+.modo-escuro {
+    background-color: #232323;
+    color: #fff;
+}
